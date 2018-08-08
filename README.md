@@ -8,11 +8,11 @@ To use this template, scaffold a project with [weexpack v1.1.1+](https://github.
 
 ``` bash
 $ npm install -g weex-toolkit
-$ weex create my-project # default will create the webpack template
-$ cd my-project && npm start
+$ cd my-project 
+$ npm start
 ```
 
 ## 效果如下
-
+![img](https://github.com/zhuzhuxingtianxia/ZZJFresh/blob/master/QQ201801.gif)
 
 
