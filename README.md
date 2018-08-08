@@ -13,6 +13,6 @@ $ npm start
 ```
 
 ## 效果如下
-![img](https://github.com/zhuzhuxingtianxia/ZZJFresh/blob/master/QQ201801.gif)
+![img](https://github.com/ZJWeex/imgload05/blob/master/20180817.gif)
 
 
