@@ -12,16 +12,7 @@ $ weex create my-project # default will create the webpack template
 $ cd my-project && npm start
 ```
 
-## How to use less/sass/pug
+## 效果如下
 
-Take `sass` for example:
 
-```
-$ npm i node-sass sass-loader --save
-```
 
-Then, you just need to change the `style` tag as: `<style lang="sass"><style>`.
-
-## How to create your own template
-
-See [How-to-create-your-own-template](https://github.com/weex-templates/How-to-create-your-own-template).
