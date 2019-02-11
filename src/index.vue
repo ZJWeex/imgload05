@@ -1,12 +1,13 @@
 <template>
   <div class="wrapper">
-    <image :src="logo" class="logo" />
+    <image :src="logo" class="logo"/>
     <HelloWorld/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import ImgColor from './ImgColor.js'
 export default {
   name: 'App',
   components: {
@@ -16,6 +17,16 @@ export default {
     return {
       logo: 'https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png'
     }
+  },
+  created(){
+    const self = this;
+    ImgColor.changeImageColor(this.logo,'#ff0033', function(e){
+      console.log('data:',e);
+        self.logo = e;
+    })
+  },
+  methods:{
+    
   }
 }
 </script>
